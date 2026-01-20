@@ -29,7 +29,7 @@ def getTranscript(model_name:str, model, audio_path:str, language:str):
 DEVICE = "mps"  # "cpu | gpu"
 MODEL_DIR = "./models"
 
-model_names = ["large-v3-turbo"]
+model_names = ["base","large-v3","large-v3-turbo"]
 
 # Get audio file
 audio_path = "./audios/CH_Where_is_toronto.m4a"
